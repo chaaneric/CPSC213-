@@ -1,0 +1,2 @@
+1. Reading 8 bits from s for the pointer y
+2. Reading the base + offset for s.y[i]

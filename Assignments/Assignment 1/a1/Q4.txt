@@ -1,0 +1,6 @@
+Intel uses little endian while the computer built in the 1980s used big endian therefore the values are swapped.
+521,829 in Hex (4 byte): 0x0007F665
+-2,207,359 in Hex (4 byte signed): 0xFFDE5181
+
+Flip the bytes around: 0x65F60700 = 1710622464
+                       0x8151DEFF = -2125340929

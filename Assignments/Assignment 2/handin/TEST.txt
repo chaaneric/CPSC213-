@@ -1,0 +1,6 @@
+The tests that I did was very simple, it started with loading hexadecimal digits into my register.  The first problem I encountered
+was needing to see the memory portion of the simulator because it did not show whether memory was being written.  I solved this
+problem by setting a pos as well as a 4 byte address in places where I would write in memory.  I then tested all the different 
+load and store methods in a CPU as well as the ALU.  Another challenge was making sure the "p" value in 'load indexed' was correct.
+At first, I did not realize p = o/4 and ran into troubles with writing it to memory.  Overall, the CPU is 100% complete and should
+be able to take any form of registry instructions

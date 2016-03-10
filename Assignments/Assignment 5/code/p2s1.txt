@@ -1,0 +1,2 @@
+The dangling pointer occurs when e is freed in the function pop.  When e is freed, e->name points to freed memory therefore
+it outputs the incorrect values

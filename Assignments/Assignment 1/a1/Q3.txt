@@ -1,0 +1,2 @@
+0x01020201
+When the first byte is the same as the last byte and the second byte is the same as the second last byte

@@ -1,0 +1,5 @@
+a) One of them utilizes the stack (in register 5) while the other just saves only the address in r6 and jumps to it
+b) A benefit for using the stack would be if there are nested function calls.  If there are more than one call to a function,
+we need to save more than one return address therefore we need to use the stack
+c) The "reg" approach is simple, reading the assembly code would be more intuitive if we wanted to convert it back to 
+simple C language.  Although this approach is very situational, it can only be used for one function call.

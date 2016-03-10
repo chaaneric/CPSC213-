@@ -1,0 +1,23 @@
+a) 7-12 and 20-22
+b) 15-16 and 29-31
+c) Replace 20 with:
+   ld $-20, r0
+   Replace 22 with:
+   st r6, 0x10(r5)
+   Replace 23 with:
+   ld 0x14(r5), r0
+   Replace 25 with:
+   ld 0x18(r5), r0
+   Replace 29 with:
+   ld 0x10(r5), r6
+   Replace 30 with:
+   ld $20, r0
+d) Replace 7 with:
+   ld $-12, r0
+   Insert After 12:
+   ld $2, r0
+   st r0, 0x8(r5) 
+   Replace 15 with:
+   ld $12, r0
+   
+   

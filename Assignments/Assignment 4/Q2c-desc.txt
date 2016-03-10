@@ -1,0 +1,2 @@
+1. Reading 12 bits from address s for the pointer s.z
+2. Reading Base + Offsetting s.z->y[i] from the address s.z 

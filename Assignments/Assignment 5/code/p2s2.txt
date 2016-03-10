@@ -1,0 +1,6 @@
+Since the tree structure is constructed from the list using the next pointer (line 22, the for-loop) when list_delete is called, it ruins
+the structure of the tree causing a seg fault.
+
+Since list_delete is called before tree_ordered_suffix_print in the main function, a dangling
+pointer occurs.  list_delete frees the necessary element values to print out the deleted tree therefore
+causing a segmentation error.
